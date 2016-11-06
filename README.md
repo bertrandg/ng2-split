@@ -2,4 +2,4 @@
 
 Work In Progress
 
-Angular wrapper for (Split.js)[https://github.com/nathancahill/Split.js]
+Angular wrapper for [Split.js](https://github.com/nathancahill/Split.js)
