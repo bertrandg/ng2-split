@@ -1,0 +1,22 @@
+
+
+
+- override style: icon / color / border / ...
+- BUG: After drag > no more style applied on gutter..
+- rename rebuild$ > build$
+- What about AOT ??
+
+GITHUB:
+- create branch 'website-src' > add all website angular-cli files
+- branch master ad this TODO inside README.md
+	- add ts files (module + 2 directives) inside /src/
+	- add index.ts at /
+	- tag proper version 0.1.0
+
+WEBSITE:
+- BUG: PrismJS weird behavior..
+- Add HashStrategy to routing
+
+
+NPM:
+- Create module ng2-split et linker au repo github branche master > tag 0.1.0
