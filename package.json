@@ -1,6 +1,6 @@
 {
   "name": "ng2-split",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Angular2 wrapper for Split.js library (http://nathancahill.github.io/Split.js/)",
   "main": "index.ts",
   "scripts": {
