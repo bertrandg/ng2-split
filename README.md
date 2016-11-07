@@ -1,5 +1,4 @@
-# ng2-split
+# Work In Progress
 
-Work In Progress
-
-Angular wrapper for [Split.js](https://github.com/nathancahill/Split.js)
+## ng-split
+Angular2 wrapper for [Split.js](https://github.com/nathancahill/Split.js)
