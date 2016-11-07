@@ -1,0 +1,25 @@
+{
+  "name": "ng2-split",
+  "version": "0.1.0",
+  "description": "Angular2 wrapper for Split.js library (http://nathancahill.github.io/Split.js/)",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bertrandg/ng2-split.git"
+  },
+  "keywords": [
+    "angular2",
+    "directive",
+    "split",
+    "split.js"
+  ],
+  "author": "bertrandg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bertrandg/ng2-split/issues"
+  },
+  "homepage": "https://github.com/bertrandg/ng2-split#readme"
+}
