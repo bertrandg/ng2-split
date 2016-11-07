@@ -17,7 +17,7 @@ declare const Prism
   template: `
     <div class="container">
         Example1
-        <pre class="language-html"><code [innerHTML]="codeStr"></code></pre>
+        <r-snippet [code]="code" language="html"></r-snippet>
         <div style="width: 100%; height: 300px;">
             <split direction="vertical">
                 <split-area size="34">
@@ -31,8 +31,7 @@ declare const Prism
     </div>`
 })
 export class Example1RouteComponent {
-  
-  _code: string = `<split direction="vertical">
+  code: string = `<split direction="vertical">
     <split-area size="25">
         <p>Lorem ipsum dolor sit amet...</p>
     </split-area>
@@ -40,10 +39,4 @@ export class Example1RouteComponent {
         <p>Sed ut perspiciatis unde omnis iste natus erro...</p>
     </split-area>
 </split>`
-  
-  codeStr: string
-  
-  constructor() {
-	  this.codeStr = Prism.highlight(this._code, Prism.languages.html);
-  }
 }

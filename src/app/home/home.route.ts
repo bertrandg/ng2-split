@@ -18,13 +18,13 @@ declare const Prism
         Angular2 wrapper for the great Split.js library.
         <br><br>
         Installation:
-        <pre><code>npm install ng2-split --save</code></pre>
-        <pre class="language-javascript"><code [innerHTML]="codeStr"></code></pre>
+        <r-snippet [code]="code1" language="javascript"></r-snippet>
+        <r-snippet [code]="code2" language="javascript"></r-snippet>
     </div>`
 })
 export class HomeRouteComponent {
-  _code: string = `import { SplitModule } from 'ng2-split'
-
+  code1: string = `npm install ng2-split --save`
+  code2: string = `import { SplitModule } from 'ng2-split'
 import { AppComponent } from './app.component'
 
 @NgModule({
@@ -40,10 +40,4 @@ import { AppComponent } from './app.component'
   bootstrap: [AppComponent]
 })
 export class AppModule {}`
-  
-  codeStr: string
-  
-  constructor() {
-	  this.codeStr = Prism.highlight(this._code, Prism.languages.javascript);
-  }
 }

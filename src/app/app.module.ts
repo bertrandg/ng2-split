@@ -8,6 +8,7 @@ import { SplitModule } from 'ng2-split'
 
 import { AppComponent } from './app.component'
 import { TopbarComponent } from './topbar.component'
+import { SnippetComponent } from './snippet.component'
 import { HomeRouteComponent } from './home/home.route'
 import { Example1RouteComponent } from './example1/example1.route'
 import { Example2RouteComponent } from './example2/example2.route'
@@ -22,6 +23,7 @@ const routes = [
   declarations: [
     AppComponent,
     TopbarComponent,
+    SnippetComponent,
     HomeRouteComponent,
     Example1RouteComponent,
     Example2RouteComponent
