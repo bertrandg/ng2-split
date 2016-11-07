@@ -21,17 +21,4 @@ import { Component } from '@angular/core';
     </div>`
 })
 export class AppComponent {
-  title = 'app works!';
-  isA1:boolean = true
-  isA2:boolean = true
-  isB1:boolean = true
-  isB2:boolean = true
-  isC1:boolean = true
-  isC2:boolean = true
-  splitWidth: number = null
-  splitHeight: number = null
-  
-  dragReport(type) {
-    console.log('dragReport ', type);
-  }
 }

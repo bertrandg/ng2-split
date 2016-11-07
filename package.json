@@ -1,5 +1,5 @@
 {
-  "name": "test-cli",
+  "name": "ng2-split-website",
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
@@ -23,7 +23,7 @@
     "bootstrap": "^4.0.0-alpha.5",
     "core-js": "^2.4.1",
     "ng2-bootstrap": "^1.1.16",
-    "ng2-prism": "^2.3.2",
+    "ng2-split": "^0.1.0",
     "prismjs": "^1.5.1",
     "rxjs": "5.0.0-beta.12",
     "split.js": "^1.1.1",
