@@ -22,7 +22,8 @@ import { Component } from '@angular/core'
         <h3>Import angular2 module:</h3>
         <r-snippet [code]="code2" language="javascript"></r-snippet>
         <br>
-        <button class="btn btn-default" [routerLink]="'/examples'">View examples</button>
+        <button class="btn btn-default" routerLink="/documentation">Documentation</button>
+        <button class="btn btn-default" routerLink="/examples">View examples</button>
     </div>`
 })
 export class HomeRouteComponent {
