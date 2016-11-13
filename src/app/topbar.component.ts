@@ -10,11 +10,14 @@ import { Router } from '@angular/router'
         <li class="nav-item" [class.active]="router.isActive('/', true)">
           <a class="nav-link" routerLink="/">Home</a>
         </li>
-        <li class="nav-item" [class.active]="router.isActive('/example1', true)">
-          <a class="nav-link" routerLink="/example1">Example 1</a>
+        <li class="nav-item" [class.active]="router.isActive('/documentation', true)">
+          <a class="nav-link" routerLink="/documentation">Documentation</a>
         </li>
-        <li class="nav-item" [class.active]="router.isActive('/example2', true)">
-          <a class="nav-link" routerLink="/example2">Example 2</a>
+        <li class="nav-item" [class.active]="router.isActive('/examples', true)">
+          <a class="nav-link" routerLink="/examples">Examples</a>
+        </li>
+        <li class="nav-item" [class.active]="router.isActive('/example-fullscreen', true)">
+          <a class="nav-link" routerLink="/example-fullscreen">Fullscreen example</a>
         </li>
       </ul>
     </nav>`

@@ -10,13 +10,16 @@ import { AppComponent } from './app.component'
 import { TopbarComponent } from './topbar.component'
 import { SnippetComponent } from './snippet.component'
 import { HomeRouteComponent } from './home/home.route'
-import { Example1RouteComponent } from './example1/example1.route'
-import { Example2RouteComponent } from './example2/example2.route'
+import { DocumentationRouteComponent } from './documentation/documentation.route'
+import { ExamplesRouteComponent } from './examples/examples.route'
+import { ExampleFullscreenRouteComponent } from './exampleFullscreen/exampleFullscreen.route'
+import { ActionsComponent } from './exampleFullscreen/actions.components'
 
 const routes = [
   {path: '', component: HomeRouteComponent},
-  {path: 'example1', component: Example1RouteComponent},
-  {path: 'example2', component: Example2RouteComponent}
+  {path: 'documentation', component: DocumentationRouteComponent},
+  {path: 'examples', component: ExamplesRouteComponent},
+  {path: 'example-fullscreen', component: ExampleFullscreenRouteComponent}
 ];
 
 @NgModule({
@@ -25,8 +28,10 @@ const routes = [
     TopbarComponent,
     SnippetComponent,
     HomeRouteComponent,
-    Example1RouteComponent,
-    Example2RouteComponent
+    DocumentationRouteComponent,
+    ExamplesRouteComponent,
+    ExampleFullscreenRouteComponent,
+    ActionsComponent
   ],
   imports: [
     BrowserModule,

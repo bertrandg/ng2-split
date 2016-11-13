@@ -4,6 +4,11 @@ declare const Prism
 
 @Component({
   selector: 'r-snippet',
+  styles: [`
+    pre {
+        margin: 0;
+    }
+  `],
   template: `
     <pre [class]="'language-'+language"><code [innerHTML]="codeStr"></code></pre>`
 })

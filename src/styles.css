@@ -8,23 +8,8 @@ body {
   background-color: #f9f9f9;
 }
 
-.area {
-  background-color: rgba(0, 0, 0, .3);
-  cursor: pointer;
-  margin: 5px;
-  text-align: center;
-  color: #ffffff;
-}
-.area.full {
-  background-color: rgba(0, 0, 0, 1);
-}
-
 split-area {
   background-color: #ffffff;
-}
-
-.panel {
-  padding: 15px;
 }
 
 .tag {

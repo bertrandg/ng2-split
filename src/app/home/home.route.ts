@@ -1,25 +1,28 @@
 import { Component } from '@angular/core'
 
-declare const Prism
-
 @Component({
   selector: 'r-home',
   styles: [`
     :host {
       display: block;
       width: 100%;
-      height: 100%;
+      margin: 100px 0;
     }
   `],
   template: `
     <div class="container">
-        ng2-split
-        <br>
-        Angular2 wrapper for the great Split.js library.
+        <div class="page-header">
+          <h1>ng2-split <small><br>Angular2 wrapper for the great <a href="http://nathancahill.github.io/Split.js/">Split.js</a> library.</small></h1>
+        </div>
+        
         <br><br>
-        Installation:
+        <h3>Install npm module:</h3>
         <r-snippet [code]="code1" language="javascript"></r-snippet>
+        <br>
+        <h3>Import angular2 module:</h3>
         <r-snippet [code]="code2" language="javascript"></r-snippet>
+        <br>
+        <button class="btn btn-default" [routerLink]="'/examples'">View examples</button>
     </div>`
 })
 export class HomeRouteComponent {
