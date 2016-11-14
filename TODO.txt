@@ -1,10 +1,11 @@
 
 FEATURES:
-- override style: icon / color / border / ...
 ✓ BUG: After drag > no more style applied on gutter..
 ✓ Better base64 gutter size
 ✓ rename rebuild$ > build$
 - What about AOT ??
+- override style: icon / color / border / ...
+- emit all areas percentage sizes onDragEnd event
 
 GITHUB:
 ✓ create branch 'website-src' > add all website angular-cli files
@@ -17,9 +18,9 @@ GITHUB:
 WEBSITE:
 ✓ BUG: PrismJS weird behavior..
 ✓ Add HashStrategy to routing
-- Add label fork on github + link repo github
-- Better examples
-- Page Documentation: list 2 directives + @Input() / @Output
+✓ Add label fork on github + link repo github
+✓ Better examples
+✓ Page Documentation: list 2 directives + @Input() / @Output
 
 NPM:
 ✓ Create module ng2-split et linker au repo github branche master > tag 0.1.0
