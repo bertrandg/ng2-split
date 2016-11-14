@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core'
 
-import { SplitDirective } from './split.directive';
-import { SplitAreaDirective } from './splitArea.directive';
+import { SplitDirective } from './split.directive'
+import { SplitAreaDirective } from './splitArea.directive'
 
 @NgModule({
   declarations: [
@@ -13,4 +13,4 @@ import { SplitAreaDirective } from './splitArea.directive';
     SplitAreaDirective
   ]
 })
-export class SplitModule { }
+export class SplitModule {}

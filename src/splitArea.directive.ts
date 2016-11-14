@@ -1,4 +1,4 @@
-import { Directive, ElementRef, Input, Renderer, ChangeDetectionStrategy, OnInit, OnDestroy, ViewChildren, HostBinding } from '@angular/core';
+import { Directive, ElementRef, Input, Renderer, ChangeDetectionStrategy, OnInit, OnDestroy, ViewChildren, HostBinding } from '@angular/core'
 
 import {SplitDirective} from './split.directive'
 
@@ -15,7 +15,9 @@ export class SplitAreaDirective implements OnInit, OnDestroy {
     @Input() size: number
     conf: IAreaData
   
-    constructor(public split: SplitDirective, public el: ElementRef, public renderer: Renderer) {}
+    constructor(public split: SplitDirective, 
+                public el: ElementRef, 
+                public renderer: Renderer) {}
 
     public ngOnInit():void {
       this.renderer.setElementClass(this.el.nativeElement, 'split', true);

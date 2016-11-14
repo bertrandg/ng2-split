@@ -2,7 +2,7 @@ import { Directive, ElementRef, HostBinding, ChangeDetectionStrategy, AfterViewC
 import { Subject } from 'rxjs/Subject'
 import { Subscription } from 'rxjs/Subscription'
 import { Observable } from 'rxjs/Observable'
-import 'rxjs/add/operator/debounceTime';
+import 'rxjs/add/operator/debounceTime'
 
 import {SplitAreaDirective, IAreaData} from './splitArea.directive'
 
@@ -26,7 +26,8 @@ export class SplitDirective implements OnChanges, OnDestroy {
     private build$ = new Subject<boolean>()
     private sub: Subscription
 
-    constructor(public el: ElementRef, public renderer: Renderer) {
+    constructor(public el: ElementRef, 
+                public renderer: Renderer) {
       this.sub = this.build$.debounceTime(1).subscribe(() => this.build());
     }
 
