@@ -1,8 +1,9 @@
 
 FEATURES:
 - override style: icon / color / border / ...
-- BUG: After drag > no more style applied on gutter..
-- rename rebuild$ > build$
+✓ BUG: After drag > no more style applied on gutter..
+✓ Better base64 gutter size
+✓ rename rebuild$ > build$
 - What about AOT ??
 
 GITHUB:
