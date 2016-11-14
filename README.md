@@ -1,4 +1,4 @@
-## ng-split
+## ng2-split
 Angular2 wrapper for [Split.js](https://github.com/nathancahill/Split.js)
 
 [![npm version](https://badge.fury.io/js/ng2-split.svg)](https://badge.fury.io/js/ng2-split)
