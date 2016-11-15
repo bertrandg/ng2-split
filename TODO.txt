@@ -6,6 +6,10 @@ FEATURES:
 - What about AOT ??
 - override style: icon / color / border / ...
 - emit all areas percentage sizes onDragEnd event
+- options:
+  - minSize: <split minSize="[50, 100, 50]"> <split-area minSize="50">
+  - gutterSize: <split gutterSize="8">
+  - cursor: <split cursor="grabbing">
 
 GITHUB:
 ✓ create branch 'website-src' > add all website angular-cli files
