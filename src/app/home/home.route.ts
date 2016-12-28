@@ -11,6 +11,8 @@ import { Component } from '@angular/core'
   `],
   template: `
     <div class="container">
+        <p style="font-size: 22px; font-weight: bold; color: red;">Deprecated library, please use <a href="https://github.com/bertrandg/angular-split/">angular-split</a>.</p>
+        <br>
         <div class="page-header">
           <h1>ng2-split <small><br>Angular2 wrapper for the great <a href="http://nathancahill.github.io/Split.js/">Split.js</a> library.</small></h1>
         </div>

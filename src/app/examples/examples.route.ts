@@ -24,6 +24,8 @@ declare const Prism
   `],
   template: `
     <div class="container">
+        <p style="font-size: 22px; font-weight: bold; color: red;">Deprecated library, please use <a href="https://github.com/bertrandg/angular-split/">angular-split</a>.</p>
+        <br>
         <h3>Horizontal split</h3>
         <r-snippet [code]="codeH" language="html"></r-snippet>
         <div class="split-example">

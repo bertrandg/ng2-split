@@ -45,6 +45,8 @@ import { Component, ViewChild, ElementRef } from '@angular/core'
             <split direction="vertical" (dragStart)="dragReport('Split B1|B2 start')" (drag)="dragReport('Split B1|B2 progress')" (dragEnd)="dragReport('Split B1|B2 end')">
                 <split-area *ngIf="display.isB1" size="50">
                     <div class="panel">
+                        <p style="font-size: 22px; font-weight: bold; color: red;">Deprecated library, please use <a href="https://github.com/bertrandg/angular-split/">angular-split</a>.</p>
+                        <br>
                         <h4>B1</h4>
                         <h3>Dynamic split</h3>
                         <r-snippet [code]="code" language="html"></r-snippet>

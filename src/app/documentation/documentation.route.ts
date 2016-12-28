@@ -18,6 +18,8 @@ import { Component } from '@angular/core'
   `],
   template: `
     <div class="container">
+        <p style="font-size: 22px; font-weight: bold; color: red;">Deprecated library, please use <a href="https://github.com/bertrandg/angular-split/">angular-split</a>.</p>
+        <br>
         <h3>Documentation</h3>
         <h4>Directive <span class="direcive">&#60;split&#62;</span></h4>
         <table class="table table-striped">
