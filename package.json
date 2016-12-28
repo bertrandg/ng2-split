@@ -1,7 +1,7 @@
 {
   "name": "ng2-split",
-  "version": "0.1.5",
-  "description": "Angular2 wrapper for Split.js library (http://nathancahill.github.io/Split.js/)",
+  "version": "0.1.6",
+  "description": "[Deprecated] Angular2 wrapper for Split.js library (http://nathancahill.github.io/Split.js/)",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
